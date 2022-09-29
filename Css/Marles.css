@@ -1,0 +1,45 @@
+body{
+    display:flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    background-color:#F9F9FA;
+}
+
+header{
+    border: 2px solid #363853;
+background-color:#F9F9FA;
+    display: flex;
+    text-align:center;
+}
+
+
+footer{
+    text-align: center;
+    border: 2px solid: #363853;
+    background: #F9F9FA;
+
+}
+
+main, .index{
+    display: flex;
+    border:1px solid #363853;
+    flex-basis: 12rem;
+}
+.index{display: flex;
+  
+  justify-content: center;
+}
+
+main{
+    border: 2px solid #363853;
+    flex-grow: 1;
+}
+
+.opc{
+    border-radius: 100%;
+    width:5px;
+    height: 10px;
+    text-align: center;
+    
+  }
